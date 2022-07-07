@@ -19,7 +19,7 @@ jobs:
         run: npm i
       - name: build
         run: npm run build
-      - name: Deploy to **-100.surge.sh
+      - name: Deploy to super-cal-fe-kks.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'super-cal-fe-kks.surge.sh'
